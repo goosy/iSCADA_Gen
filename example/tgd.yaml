@@ -1,0 +1,58 @@
+---
+name: GD-tgd
+
+list:
+- name: ROVN211
+  prefix: P072_ROVN211_
+  alias:
+    HSC: CLOSE_CMD&关命令
+    HSO: OPEN_CMD&开命令
+    HSP: STOP_CMD&停命令
+    RL: REMOTE&就地/远程
+    THIS: '&1#泵进口阀'
+    VP: VP&阀位
+    XA: '&故障'
+    XI: '&电机运行状态'
+    ZIC: CP&关到位
+    ZIO: OP&开到位
+- name: ROVN212
+  prefix: P072_ROVN212_
+  alias:
+    HSC: CLOSE_CMD&关命令
+    HSO: OPEN_CMD&开命令
+    HSP: STOP_CMD&停命令
+    RL: REMOTE&就地/远程
+    THIS: '&名称'
+    VP: VP&阀位
+    XA: '&故障'
+    XI: '&电机运行状态'
+    ZIC: CP&关到位
+    ZIO: OP&开到位
+- name: 孤岛1号泵
+  alias:
+    MOTOR_TIT1: P072_TTN213_PV&电机前轴温度
+    MOTOR_TIT2: P072_TTN214_PV&电机后轴温度
+    MOTOR_VIT1: P072_VTN213_PV&电机前轴振动
+    MOTOR_VIT2: P072_VTN214_PV&电机后轴振动
+    P_IN: P072_PIT211_PV&孤岛原油库1#泵进口
+    P_OUT: P072_PIT212_PV&出口压力
+    PUMP_TIT1: P072_TTN211_PV&前轴温度
+    PUMP_TIT2: P072_TTN212_PV&后轴温度
+    PUMP_VIT1: P072_VTN211_PV&前轴振动
+    PUMP_VIT2: P072_VTN212_PV&后轴振动
+    T_IN: P072_TTN210_PV&1#泵进口温度
+    T_OUT: P072_TTN215_PV&回流管温度
+- name: 孤岛孤罗东泵状态
+  alias:
+    1: P072_PUMP1_RUN&1#泵运行状态
+    2: P072_PUMP2_RUN&2#泵运行状态
+    3: P072_PUMP3_RUN&3#泵运行状态
+    4: P072_PUMP4_RUN&4#泵运行状态
+- name: 孤岛孤永东泵状态
+  alias:
+    1: P072_PUMP5_RUN&5#泵运行状态
+    2: P072_PUMP6_RUN&6#泵运行状态
+    3: P072_PUMP7_RUN&7#泵运行状态
+    4: P072_PUMP8_RUN&8#泵运行状态
+
+...
